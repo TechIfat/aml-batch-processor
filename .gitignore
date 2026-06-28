@@ -1,6 +1,14 @@
-
+# Secrets
 .env
 .env.*
+
+# Python
 __pycache__/
 .venv/
-data/raw/.DS_Store
+
+# Mac OS System Files (The Global Kill Switch)
+.DS_Store
+**/.DS_Store
+
+# Data
+data/raw/
